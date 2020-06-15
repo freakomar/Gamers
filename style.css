@@ -1,14 +1,122 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 .container {
+    padding-top: 13px;
     margin: 0 auto;
     width: 1920px;
     height: 6581px;
     background-color: #ffffff;
+    background: url(images/bg_main.jpg) no-repeat;
 }
 
+.header {
+    width: 1920px;
+    height: 83px;
+    background-color: #000000;
+    opacity: 0.5;
+}
 
+.logo {
+    margin-left: 475px;
+    margin-top: 32px;
+    padding-top: 19px;
+}
 
+.logo-toptxt {
+    width: 169px;
+    height: 29px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.77px;
+    margin-bottom: 5px;
+}
+
+.logo-bottomtxt {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 30.75px;
+    margin-left: 2px;
+    display: inline-block;
+    margin-top: 0;
+    float: left;
+}
+
+.phone {
+    display: flex;
+}
+
+.nav {
+    margin-left: 703px;
+}
+
+.phone {
+    line-height: 25px;
+    margin-left: 108px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    float: left;
+}
+
+.phone-span {
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.36px;
+    margin-left: 14px;
+    margin-top: 2px
+}
+
+.mail {
+    display: flex;
+    float: left;
+    margin-left: 39px;
+    margin-top: -15.5px;
+}
+
+.mail-span {
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.36px;
+    margin-left: 14px;
+}
+
+.search {
+    width: 208px;
+    height: 38px;
+    float: left;
+    display: flex;
+    margin-left: 100px;
+    margin-top: -26px;
+}
+
+.search-input {
+    background-color: #000000;
+    border: 1px solid #ffff;
+    border-right: none;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.36px;
+}
+
+.search-button {
+    width: 50px;
+    background-color: #000000;
+    border: 1px solid #ffffff
+}
