@@ -17,7 +17,7 @@ body {
 .container {
     padding-top: 13px;
     margin: 0 auto;
-    width: 1920px;
+    max-width: 1920px;
     height: 6581px;
     background-color: #ffffff;
     background: url(images/bg_main.jpg) no-repeat;
@@ -25,29 +25,28 @@ body {
 }
 
 .header {
-    margin-top: -36px;
-    width: 1920px;
+    margin-top: 10px;
     height: 83px;
     background-color: #000000;
     opacity: 0.5;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    justify-content: space-around;
 }
 
 .logo {
-    margin-left: 475px;
-    margin-top: 32px;
-    padding-top: 19px;
+    width: 172px;
+    height: 46px
 }
 
 .logo-toptxt {
-    width: 169px;
-    height: 29px;
     color: #ffffff;
     font-family: Poppins;
     font-size: 36px;
     font-weight: 500;
     line-height: 36px;
     letter-spacing: 0.77px;
-    margin-bottom: 5px;
 }
 
 .logo-bottomtxt {
@@ -59,25 +58,18 @@ body {
     text-transform: uppercase;
     letter-spacing: 30.75px;
     margin-left: 2px;
-    display: inline-block;
-    margin-top: 0;
-    float: left;
 }
 
 .phone {
-    display: flex;
-}
-
-.nav {
-    margin-left: 703px;
+    
 }
 
 .phone {
+    width: 130px;
+    height: 25px;
     line-height: 25px;
-    margin-left: 108px;
-    margin-bottom: 30px;
-    margin-top: -20px;
     float: left;
+    display: flex;
 }
 
 .phone-span {
@@ -86,15 +78,15 @@ body {
     font-size: 17px;
     font-weight: 300;
     letter-spacing: 0.36px;
-    margin-left: 14px;
-    margin-top: 2px
+    margin-left: 8px;
+    line-height: 30px;
 }
 
 .mail {
+    width: 167px;
+    height: 20px;
     display: flex;
     float: left;
-    margin-left: 39px;
-    margin-top: -15.5px;
 }
 
 .mail-span {
@@ -111,8 +103,6 @@ body {
     height: 38px;
     float: left;
     display: flex;
-    margin-left: 100px;
-    margin-top: -26px;
 }
 
 .search-input {
@@ -143,7 +133,6 @@ body {
     margin: 0;
     padding-top: 29px;
     clear: both;
-    width: 1920px;
     height: 78px;
     border-bottom: 1px solid #ffffff;
 }
