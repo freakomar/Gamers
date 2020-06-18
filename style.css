@@ -5,7 +5,8 @@
     text-decoration: none;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -19,7 +20,7 @@ html, body {
     width: 1920px;
     height: 6581px;
     background-color: #ffffff;
-    background: url(images/bg_main.jpg)  no-repeat;
+    background: url(images/bg_main.jpg) no-repeat;
     background-size: contain;
 }
 
@@ -392,7 +393,8 @@ html, body {
 }
 
 .gallery-block {
-    display: inline-block;
+    position: relative;
+    float: left;
     background-color: #f7f7f7;
     height: 481px;
     width: 270px;
@@ -424,6 +426,9 @@ html, body {
     line-height: 24px;
     letter-spacing: 0.14px;
     border: none;
+    position: absolute;
+    bottom: 13px;
+    right: 70px
 }
 
 .gallery-span {
