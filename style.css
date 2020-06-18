@@ -234,6 +234,10 @@ body {
     border-radius: 50%;
 }
 
+.shortcuts-round img {
+    color: #000;
+}
+
 .aboutUs {
     width: 971px;
     height: 338px;
@@ -433,4 +437,64 @@ body {
 
 .gallery-span {
     text-transform: uppercase;
+}
+
+.testimonial {
+    width: 1923px;
+    padding-top: 85px;
+    height: 537px;
+    background-color: rgba(102, 102, 102, 0.81);
+    background-image: url(images/testimonial.jpg);
+    margin: 0 auto;
+    margin-top: 759px;
+}
+
+.testimonial-h3 {
+    width: fit-content;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.testimonial-quot {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.testimonial-content {
+    float: left;
+    width: 935px;
+    margin: 0 auto;
+}
+
+.testimonial-p {
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    display: in
+}
+
+.testimonial-p span {
+    font-family: "Roboto - Bold Condensed";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.testimonial-arrowLeft,
+.testimonial-arrowRight {
+    color: #ffffff;
+    font-family: "Font Awesome";
+    font-size: 30px;
+    font-weight: 400;
+    float: left;
+    border: 1px solid #ffffff;
+    width: 37px;
+    height: 37px;
+    text-align: center;
 }
