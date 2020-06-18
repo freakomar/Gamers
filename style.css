@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+html, body {
+    height: 100%;
+}
+
 .clearfix {
     clear: both;
 }
@@ -15,7 +19,8 @@
     width: 1920px;
     height: 6581px;
     background-color: #ffffff;
-    background: url(images/bg_main.jpg) no-repeat;
+    background: url(images/bg_main.jpg)  no-repeat;
+    background-size: contain;
 }
 
 .header {
@@ -418,6 +423,7 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.14px;
+    border: none;
 }
 
 .gallery-span {
