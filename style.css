@@ -178,12 +178,11 @@ body {
 
 .sliderContent {
     clear: both;
-    height: 550px;
+    height: 542px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .sliderContent-upperText {
