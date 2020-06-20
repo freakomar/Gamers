@@ -241,12 +241,15 @@ body {
     margin-top: 81px;
 }
 
-.aboutUs-h3 {
-    float: left;
+h3 {
     color: #f44336;
     font-family: Poppins;
     font-size: 36px;
     font-weight: 500;
+}
+
+.aboutUs-h3 {
+    float: left;
     margin-top: 14px;
 }
 
@@ -275,10 +278,6 @@ body {
 .services-h3 {
     width: fit-content;
     margin: 0 auto;
-    color: #f44336;
-    font-family: Poppins;
-    font-size: 36px;
-    font-weight: 500;
     line-height: 48px;
 }
 
@@ -374,14 +373,10 @@ body {
     background-color: #f44336;
 }
 
-.gallery-h4 {
+.gallery-h3 {
     width: fit-content;
     margin: 0 auto;
     margin-top: 93px;
-    color: #f44336;
-    font-family: Poppins;
-    font-size: 36px;
-    font-weight: 500;
     line-height: 48px;
 }
 
@@ -504,3 +499,14 @@ body {
     height: 37px;
     text-align: center;
 }
+
+.news {
+    height: 888px;
+    display: flex;
+    justify-content: center;
+}
+
+.news-latest-h4 {
+
+}
+
