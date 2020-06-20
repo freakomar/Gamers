@@ -381,6 +381,7 @@ body {
 }
 
 .gallery {
+    display: flex;
     width: fit-content;
     margin: 0 auto;
     margin-top: 92px;
@@ -430,18 +431,20 @@ body {
 }
 
 .testimonial {
-    width: 1923px;
-    padding-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 55px;
     height: 537px;
     background-color: rgba(102, 102, 102, 0.81);
     background-image: url(images/testimonial.jpg);
     margin: 0 auto;
-    margin-top: 759px;
+    margin-top: 186px;
 }
 
 .testimonial-h3 {
     width: fit-content;
-    margin: 0 auto;
     color: #ffffff;
     font-family: Poppins;
     font-size: 48px;
@@ -451,14 +454,19 @@ body {
 
 .testimonial-quot {
     width: fit-content;
-    margin: 0 auto;
-    margin-top: 90px;
+}
+
+.testimonial-centralPart {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-bottom: 93px;
 }
 
 .testimonial-content {
-    float: left;
-    width: 935px;
-    margin: 0 auto;
+    max-width: 935px;
+    min-width: 550px;
+    margin: 0 5px;
 }
 
 .testimonial-p {
@@ -467,7 +475,10 @@ body {
     font-size: 14px;
     font-weight: 300;
     text-align: center;
-    display: in
+}
+
+.testimonial-p--john {
+    margin-top: 10px;
 }
 
 .testimonial-p span {
@@ -482,7 +493,7 @@ body {
     font-family: "Font Awesome";
     font-size: 30px;
     font-weight: 400;
-    float: left;
+    margin-top: 9px;
     border: 1px solid #ffffff;
     width: 37px;
     height: 37px;

@@ -1,9 +1,13 @@
-@media screen and (max-width: 1920px) {
+        @media screen and (max-width: 1920px) {
     .sliderContent {
         height: 525px;
     }
     .sliderContent-upperText {
         margin-top: 109px;
+    }
+    .testimonial-centralPart {
+        max-width: 65vw;
+        min-width: 650px;
     }
 }
 
@@ -67,12 +71,10 @@
         height: 30px;
         border: 1px solid #ffffff;
     }
-    
     .sliderContent-shortcuts-round img {
         height: auto;
         width: auto;
     }
-    
     .gallery-block {
         margin: auto 8px;
     }
@@ -103,16 +105,14 @@
         height: 30px;
         border: 1px solid #ffffff;
     }
-    
     .sliderContent-shortcuts {
         margin-top: 18px;
     }
-    
     .sliderContent-shortcuts-round img {
         height: auto;
         width: auto;
     }
-        .gallery-block {
+    .gallery-block {
         margin: auto 2px;
     }
 }
@@ -121,8 +121,7 @@
     .sliderContent {
         height: 220px;
     }
-
-@media screen and (max-width: 1050px) {
-    .sliderContent {
-        height: 200px;
-    }
+    @media screen and (max-width: 1050px) {
+        .sliderContent {
+            height: 200px;
+        }
