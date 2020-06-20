@@ -21,8 +21,13 @@ body {
     min-width: 1024px;
     height: 6581px;
     background-color: #ffffff;
+}
+
+.slider {
     background: url(images/bg_main.jpg) no-repeat;
-    background-size: contain;
+    background-size: initial;
+    background-position: center;
+    height: 725px;
 }
 
 .header {
@@ -437,8 +442,8 @@ body {
     align-items: center;
     padding-top: 55px;
     height: 537px;
-    background-color: rgba(102, 102, 102, 0.81);
     background-image: url(images/testimonial.jpg);
+    background-position: center;
     margin: 0 auto;
     margin-top: 186px;
 }
@@ -478,7 +483,7 @@ body {
 }
 
 .testimonial-p--john {
-    margin-top: 10px;
+    margin-top: 14px;
 }
 
 .testimonial-p span {

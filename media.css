@@ -1,127 +1,14 @@
         @media screen and (max-width: 1920px) {
-    .sliderContent {
-        height: 525px;
-    }
-    .sliderContent-upperText {
-        margin-top: 109px;
-    }
-    .testimonial-centralPart {
-        max-width: 65vw;
-        min-width: 650px;
-    }
-}
-
-@media screen and (max-width: 1840px) {
-    .sliderContent {
-        height: 490px;
-    }
-}
-
-@media screen and (max-width: 1740px) {
-    .sliderContent {
-        height: 440px;
-    }
-    .sliderContent-upperText {
-        margin-top: 75px;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .sliderContent {
-        height: 390px;
-    }
-    .sliderContent-upperText {
-        margin-top: 50px;
-    }
-}
-
-@media screen and (max-width: 1480px) {
-    .sliderContent {
-        height: 340px;
-    }
-    .sliderContent-upperText {
-        margin-top: 30px;
-    }
-    .sliderContent-shortcuts {
-        margin-top: 34px;
-    }
-}
-
-@media screen and (max-width: 1340px) {
-    .sliderContent {
-        height: 290px;
-    }
-    .sliderContent-upperText {
-        font-size: 12px;
-    }
-    .sliderContent-dash {
-        width: 50px;
-        height: 1px;
-    }
-    .sliderContent-middleText {
-        font-size: 40px;
-        line-height: 50px;
-        margin-top: 34px;
-    }
-    .sliderContent-shortcuts-round {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 30px;
-        height: 30px;
-        border: 1px solid #ffffff;
-    }
-    .sliderContent-shortcuts-round img {
-        height: auto;
-        width: auto;
-    }
-    .gallery-block {
-        margin: auto 8px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .sliderContent {
-        height: 240px;
-    }
-    .sliderContent-upperText {
-        font-size: 12px;
-        margin-top: 20px;
-    }
-    .sliderContent-dash {
-        width: 45px;
-        height: 1px;
-    }
-    .sliderContent-middleText {
-        font-size: 40px;
-        line-height: 50px;
-        margin-top: 28px;
-    }
-    .sliderContent-shortcuts-round {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 30px;
-        height: 30px;
-        border: 1px solid #ffffff;
-    }
-    .sliderContent-shortcuts {
-        margin-top: 18px;
-    }
-    .sliderContent-shortcuts-round img {
-        height: auto;
-        width: auto;
-    }
-    .gallery-block {
-        margin: auto 2px;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .sliderContent {
-        height: 220px;
-    }
-    @media screen and (max-width: 1050px) {
-        .sliderContent {
-            height: 200px;
+            .testimonial-centralPart {
+                max-width: 65vw;
+                min-width: 650px;
+            }
         }
+        
+        @media screen and (max-width: 1200px) {
+            .gallery-block {
+                margin: auto 2px;
+            }
+        }
+        
+        @media screen and (max-width: 1100px) {
