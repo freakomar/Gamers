@@ -661,4 +661,40 @@ h3 {
 .members {
     display: flex;
     justify-content: center;
+    margin-top: 61px;
+}
+
+.team-member {
+    margin: 0 15px;
+}
+
+.team-h4 {
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.team-p {
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.pics {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.pics-square {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    margin-right: 15px;
 }
