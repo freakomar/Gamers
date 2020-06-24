@@ -165,6 +165,14 @@ body {
     letter-spacing: 0.36px;
 }
 
+.menu-link:hover {
+    color: #999;
+}
+
+.menu-link:active {
+    color: #ccc;
+}
+
 .menu-list--active {
     border-bottom: 3px solid #ffffff;
 }
@@ -430,6 +438,14 @@ h3 {
     position: absolute;
     bottom: 8px;
     right: 70px
+}
+
+.gallery-button:hover {
+    background-color: #ff6666;
+}
+
+.gallery-button:active {
+    background-color: #ff2222;
 }
 
 .gallery-span {
@@ -747,6 +763,14 @@ h3 {
     margin-left: 12px;
 }
 
+.subscribe-submit:hover {
+    background-color: #ff6666;
+}
+
+.subscribe-submit:active {
+    background-color: #ff2222;
+}
+
 .subscribe-email {
     width: 499px;
     height: 55px;
@@ -840,6 +864,14 @@ h3 {
     text-transform: uppercase;
     width: 140px;
     height: 40px;
+}
+
+.contact-input-submit:hover {
+    background-color: #ff6666;
+}
+
+.contact-input-submit:active {
+    background-color: #ff2222;
 }
 
 .route-h3 {
