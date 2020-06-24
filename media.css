@@ -1,15 +1,18 @@
             @media screen and (max-width: 1920px) {
-            .testimonial-centralPart {
-                max-width: 65vw;
-                min-width: 650px;
+                .testimonial-centralPart {
+                    max-width: 65vw;
+                    min-width: 650px;
+                }
             }
-        }
-        
-        @media screen and (max-width: 1200px) {
-            .gallery-block {
-                margin: auto 2px;
+            
+            @media screen and (max-width: 1200px) {
+                .gallery-block {
+                    margin: auto 2px;
+                }
+                .news-latest {
+                    margin-left: 0;
+                }
+                .team-member {
+                    margin: 0 3px;
+                }
             }
-            .news-latest {
-                margin-left: 0;
-            }
-        }
