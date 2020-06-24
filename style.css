@@ -235,10 +235,11 @@ body {
 }
 
 .aboutUs {
-    width: 971px;
     height: 338px;
     margin: 0 auto;
     margin-top: 81px;
+    display: flex;
+    justify-content: center;
 }
 
 h3 {
@@ -248,15 +249,20 @@ h3 {
     font-weight: 500;
 }
 
+.aboutUs-content {
+    width: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 33px;
+}
+
 .aboutUs-h3 {
-    float: left;
     margin-top: 14px;
 }
 
 .aboutUs-p {
     width: 398px;
-    float: left;
-    clear: both;
     color: #999999;
     font-family: "Roboto Condensed";
     font-size: 12px;
@@ -268,7 +274,7 @@ h3 {
 
 .services {
     height: 762px;
-    padding-top: 92px;
+    padding-top: 82px;
     background-color: #f7f7f7;
     margin-top: 81px;
     clear: both;
@@ -285,7 +291,7 @@ h3 {
 .services-left {
     width: 450px;
     display: inline-block;
-    margin-top: 87px;
+    margin-top: 77px;
 }
 
 .services-right {
@@ -376,7 +382,7 @@ h3 {
 .gallery-h3 {
     width: fit-content;
     margin: 0 auto;
-    margin-top: 93px;
+    margin-top: 83px;
     line-height: 48px;
 }
 
@@ -384,7 +390,7 @@ h3 {
     display: flex;
     width: fit-content;
     margin: 0 auto;
-    margin-top: 92px;
+    margin-top: 82px;
 }
 
 .gallery-block {
@@ -503,14 +509,14 @@ h3 {
 .news-h3 {
     width: fit-content;
     margin: 0 auto;
-    margin-top: 97px;
+    margin-top: 87px;
 }
 
 .news {
     height: 677px;
     display: flex;
     justify-content: center;
-    margin-top: 102px;
+    margin-top: 92px;
 }
 
 .news-latest {
@@ -649,7 +655,14 @@ h3 {
     line-height: 24px;
 }
 
+.first-arrow {
+    position: absolute;
+    right: 56px;
+    top: -10px;
+}
+
 .team {
+    position: relative;
     height: 785px;
     background-color: #f7f7f7;
     display: flex;
@@ -697,4 +710,165 @@ h3 {
     align-items: center;
     border: 2px solid #000000;
     margin-right: 15px;
+}
+
+.subscribe {
+    height: 313px;
+    background: url(images/subscribe-bg.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-p {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.subscribe-form {
+    margin-top: 56px;
+}
+
+.subscribe-submit {
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    background-color: #f44336;
+    border: none;
+    width: 119px;
+    height: 53px;
+    margin-left: 12px;
+}
+
+.subscribe-email {
+    width: 499px;
+    height: 55px;
+    border: none;
+    padding-left: 35px;
+    color: #8e8e8e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.contact-h3 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 77px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 79px;
+}
+
+.inTouch {
+    width: 386px;
+    height: 303px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-right: 25px;
+}
+
+.inTouch-h4 {
+    color: #f44336;
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.inTouch-p {
+    color: #9e9e9e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    margin: 10px 0;
+}
+
+.inTouch-span {
+    color: #f44336;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 303px;
+    width: 470px;
+    margin-left: 90px;
+}
+
+.contact-input-text {
+    border: 1px solid #999999;
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 470px;
+    height: 42px;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+.contact-input-textarea {
+    height: 168px;
+}
+
+.contact-input-submit {
+    background-color: #f44336;
+    border: none;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    text-transform: uppercase;
+    width: 140px;
+    height: 40px;
+}
+
+.route-h3 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 76px;
+}
+
+.img-route {
+    width: 1169px;
+    height: 298px;
+    background: url(images/route.jpg);
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 71px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.16px;
+    margin-top: 80px;
 }
