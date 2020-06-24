@@ -503,12 +503,14 @@ h3 {
 .news-h3 {
     width: fit-content;
     margin: 0 auto;
+    margin-top: 97px;
 }
 
 .news {
-    height: 888px;
+    height: 677px;
     display: flex;
     justify-content: center;
+    margin-top: 102px;
 }
 
 .news-latest {
@@ -645,4 +647,18 @@ h3 {
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
+}
+
+.team {
+    height: 785px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
 }
