@@ -1,0 +1,38 @@
+.container {
+    height: 1456px;
+}
+
+.contacts {
+    height: 663px;
+    background-color: #e1e1e1;
+    padding-top: 98px;
+}
+
+.contact-h3 {
+    margin-top: 0;
+}
+
+.header {
+    margin-top: 0;
+    opacity: 0.7;
+}
+
+.menu-link {
+    color: #8c8c8c;
+}
+
+.menu-link--active {
+    color: #000000;
+}
+
+.menu-list:last-child a {
+    margin-right: 2px;
+}
+
+.menu-list--active {
+    border-bottom: 3px solid #000000;
+}
+
+.footer-span {
+    color: #f44336;
+}
