@@ -1,0 +1,123 @@
+.container {
+    height: 3890px;
+}
+
+.gallery-h3 {
+    margin-top: 175px;
+}
+
+.gallery-a {
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+}
+
+.showMore {
+    width: 308px;
+    height: 38px;
+    outline: 1px solid #000000;
+    text-align: center;
+    line-height: 38px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.discount {
+    display: flex;
+    margin-top: 174px;
+}
+
+.discount-block {
+    position: relative;
+    width: 960px;
+    height: 562px;
+}
+
+.discount-block--left {
+    background: url(images/CoD-bg.jpg);
+    background-position: right;
+}
+
+.discount-block--right {
+    background: url(images/medal-bg.jpg);
+    background-position: right;
+}
+
+.gallery-button--discount {
+    left: 115px;
+    bottom: 153px;
+    width: 265px;
+    height: 62px;
+}
+
+.discount-h5 {
+    color: #010101;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 115px;
+    bottom: 396px;
+}
+
+.discount-h4 {
+    color: #f44336;
+    font-family: myriad-pro;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    position: absolute;
+    left: 115px;
+    bottom: 318px;
+}
+
+.discount-h4--right {
+    font-family: Poppins;
+}
+
+.discount-h5--right {
+     bottom: 360px;
+}
+
+.discount-p {
+    color: #8c8c8c;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    position: absolute;
+    left: 115px;
+    bottom: 234px;
+}
+.line-through {
+    text-decoration: line-through;
+}
+
+.discount-p-span {
+    color: #000000;
+    font-size: 62px;
+}
+
+.contact {
+    position: relative;
+}
+
+.first-arrow {
+    top: -100px;
+}
+
+.contact-h3 {
+    margin-top: 174px;
+}
+
+.route-h3 {
+    margin-top: 167px;
+}
+
+.img-route {
+    margin-top: 104px;
+}

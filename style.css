@@ -677,6 +677,10 @@ h3 {
     top: -10px;
 }
 
+.first-arrow img:hover {
+    width: 45px;
+}
+
 .team {
     position: relative;
     height: 785px;
