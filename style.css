@@ -134,6 +134,14 @@ body {
     border: 1px solid #ffffff
 }
 
+.search-button:hover {
+    background-color: #333333;
+}
+
+.search-button:active {
+    background-color: #666666;
+}
+
 .nav {
     margin: 0;
     padding-top: 29px;
@@ -251,10 +259,12 @@ body {
 }
 
 h3 {
+    text-align: center;
     color: #f44336;
     font-family: Poppins;
     font-size: 36px;
     font-weight: 500;
+    width: 300px;
 }
 
 .aboutUs-content {
@@ -396,7 +406,7 @@ h3 {
 
 .gallery {
     display: flex;
-    width: fit-content;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 82px;
 }
@@ -806,7 +816,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
+    /*align-items: baseline;*/
     margin-right: 25px;
 }
 
@@ -846,7 +856,6 @@ h3 {
     font-family: "Roboto Condensed";
     font-size: 14px;
     font-weight: 400;
-    line-height: 48px;
     width: 470px;
     height: 42px;
     padding-left: 30px;
@@ -854,6 +863,7 @@ h3 {
 }
 
 .contact-input-textarea {
+    line-height: 48px;
     height: 168px;
 }
 
@@ -864,7 +874,6 @@ h3 {
     font-family: "Roboto Condensed";
     font-size: 14px;
     font-weight: 400;
-    line-height: 48px;
     text-transform: uppercase;
     width: 140px;
     height: 40px;
